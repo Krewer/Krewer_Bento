@@ -1,39 +1,32 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-// ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-// ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-// │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-// └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
-
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Rei',
+	name: 'Krewer',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Bom dia!',
+	greetingAfternoon: 'Boa tarde,',
+	greetingEvening: 'Boa noite,',
+	greetingNight: 'Vá dormir!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '288752458e9b0130f398aa44af330a02', // Write here your API Key
+	weatherKey: '626ef10bed6c7819c4d718c93f8ab4ea', // Write here your API Key
 	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '34.049',
-	defaultLongitude: '74.392',
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '-22.94',
+	defaultLongitude: '-47.31',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -65,9 +58,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Senac',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://apsweb.senacrs.com.br/modulos/aluno/login.php5',
 		},
 		{
 			id: '4',
@@ -139,12 +132,12 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Kren',
-					link: 'https://www.youtube.com/playlist?list=PLgF_gQh7OwJzwtN08b5oQ_-s3uZ6IsLp-',
+					name: 'Kaiser',
+					link: 'https://www.youtube.com/playlist?list=PL1BXXIH3mh6ASLTmUWtr11XqzqNtwmZ0X',
 				},
 				{
-					name: 'Underrated',
-					link: 'https://www.youtube.com/playlist?list=PLWTjjEmzNQCvKwhXmedIRmxXU-nUy7XIi',
+					name: 'K-Pop',
+					link: 'https://www.youtube.com/playlist?list=PLN9RCuxM8rCtvDe5LabEOTDJhSlVgT1OL',
 				},
 				{
 					name: 'Japanese',
@@ -169,12 +162,12 @@ const CONFIG = {
 					link: 'https://www.hashnode.com',
 				},
 				{
-					name: 'X',
-					link: 'https://www.x.com',
+					name: 'UnixPorn',
+					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Work mail',
+					link: 'https://mail.google.com/mail/u/2/#inbox',
 				},
 			],
 		},
